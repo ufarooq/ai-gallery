@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27B19A1E2C2E416A008A8C4A /* Placeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B19A1D2C2E416A008A8C4A /* Placeholder.swift */; };
+		27B19A202C2E4171008A8C4A /* Placeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B19A1F2C2E4171008A8C4A /* Placeholder.swift */; };
+		27B19A222C2E4177008A8C4A /* Placeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B19A212C2E4177008A8C4A /* Placeholder.swift */; };
+		27B19A242C2E417D008A8C4A /* Placeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B19A232C2E417D008A8C4A /* Placeholder.swift */; };
+		27B19A262C2E4183008A8C4A /* Placeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B19A252C2E4183008A8C4A /* Placeholder.swift */; };
+		27B19A282C2E4189008A8C4A /* Placeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B19A272C2E4189008A8C4A /* Placeholder.swift */; };
+		27B19A2A2C2E418F008A8C4A /* Placeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B19A292C2E418F008A8C4A /* Placeholder.swift */; };
+		27B19A2C2C2E4195008A8C4A /* Placeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B19A2B2C2E4195008A8C4A /* Placeholder.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		27B19A152C2E413D008A8C4A /* GalleryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GalleryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27B19A1D2C2E416A008A8C4A /* Placeholder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Placeholder.swift; sourceTree = "<group>"; }; // Data group placeholder
+		27B19A1F2C2E4171008A8C4A /* Placeholder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Placeholder.swift; sourceTree = "<group>"; }; // UI group placeholder
+		27B19A212C2E4177008A8C4A /* Placeholder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Placeholder.swift; sourceTree = "<group>"; }; // ViewModels group placeholder
+		REF_CHATVIEWMODELBASE_S /* ChatViewModelBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ChatViewModelBase.swift"; path = "ViewModels/ChatViewModelBase.swift"; sourceTree = "<group>"; };
+		REF_IMGCLASSVM_S /* ImageClassificationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ImageClassificationViewModel.swift"; path = "ViewModels/ImageClassificationViewModel.swift"; sourceTree = "<group>"; };
+		27B19A232C2E417D008A8C4A /* Placeholder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Placeholder.swift; sourceTree = "<group>"; }; // Models group placeholder
+		NEW_FILE_REF_MODEL_SWIFT /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Model.swift"; path = "Models/Model.swift"; sourceTree = "<group>"; };
+		NEW_FILE_REF_CONFIG_SWIFT /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Config.swift"; path = "Models/Config.swift"; sourceTree = "<group>"; };
+		NEW_FILE_REF_CONFIGVALUE_SWIFT /* ConfigValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ConfigValue.swift"; path = "Models/ConfigValue.swift"; sourceTree = "<group>"; };
+		NEW_FILE_REF_TASK_SWIFT /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Task.swift"; path = "Models/Task.swift"; sourceTree = "<group>"; };
+		NEW_FILE_REF_APPBARACTION_SWIFT /* AppBarAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "AppBarAction.swift"; path = "Models/AppBarAction.swift"; sourceTree = "<group>"; };
+		NEW_FILE_REF_MODELALLOWLIST_SWIFT /* ModelAllowlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ModelAllowlist.swift"; path = "Models/ModelAllowlist.swift"; sourceTree = "<group>"; };
+		REF_CHAT_TYPES_FINAL /* ChatMessageTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ChatMessageTypes.swift"; path = "Models/Chat/ChatMessageTypes.swift"; sourceTree = "<group>"; };
+		REF_CHAT_SUPPORT_FINAL /* ChatSupportingTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ChatSupportingTypes.swift"; path = "Models/Chat/ChatSupportingTypes.swift"; sourceTree = "<group>"; };
+		REF_CHAT_MESSAGE_FINAL /* ChatMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ChatMessage.swift"; path = "Models/Chat/ChatMessage.swift"; sourceTree = "<group>"; };
+		NEW_FILE_REF_CONSTS_SWIFT /* Consts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Consts.swift"; path = "Data/Consts.swift"; sourceTree = "<group>"; };
+		NEW_FILE_REF_DATASTORE_SWIFT /* DataStoreRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "DataStoreRepository.swift"; path = "Data/DataStoreRepository.swift"; sourceTree = "<group>"; };
+		NEW_FILE_REF_DOWNLOADREPO_SWIFT /* DownloadRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "DownloadRepository.swift"; path = "Data/DownloadRepository.swift"; sourceTree = "<group>"; };
+		REF_IMGCLASSMH_S /* ImageClassificationModelHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ImageClassificationModelHelper.swift"; path = "Services/ImageClassificationModelHelper.swift"; sourceTree = "<group>"; };
+		27B19A252C2E4183008A8C4A /* Placeholder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Placeholder.swift; sourceTree = "<group>"; }; // Services group placeholder
+		27B19A272C2E4189008A8C4A /* Placeholder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Placeholder.swift; sourceTree = "<group>"; }; // Utils group placeholder
+		27B19A292C2E418F008A8C4A /* Placeholder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Placeholder.swift; sourceTree = "<group>"; }; // Resources group placeholder
+		27B19A2B2C2E4195008A8C4A /* Placeholder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Placeholder.swift; sourceTree = "<group>"; }; // Preview Content group placeholder
+		27B19A2E2C2E41A0008A8C4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27B19A302C2E41A6008A8C4A /* GalleryApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GalleryApp.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		GRP_CHAT_MODELS_FINAL /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				REF_CHAT_TYPES_FINAL /* ChatMessageTypes.swift */,
+				REF_CHAT_SUPPORT_FINAL /* ChatSupportingTypes.swift */,
+				REF_CHAT_MESSAGE_FINAL /* ChatMessage.swift */,
+			);
+			path = Models/Chat;
+			name = Chat;
+			sourceTree = "<group>";
+		};
+		27B19A142C2E413D008A8C4A = {
+			isa = PBXGroup;
+			children = (
+				27B19A2D2C2E41A0008A8C4A /* GalleryApp */,
+				27B19A162C2E413D008A8C4A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		27B19A162C2E413D008A8C4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27B19A152C2E413D008A8C4A /* GalleryApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27B19A2D2C2E41A0008A8C4A /* GalleryApp */ = {
+			isa = PBXGroup;
+			children = (
+				27B19A1C2C2E416A008A8C4A /* Data */,
+				27B19A1E2C2E4171008A8C4A /* UI */,
+				27B19A202C2E4177008A8C4A /* ViewModels */,
+				27B19A222C2E417D008A8C4A /* Models */,
+				27B19A242C2E4183008A8C4A /* Services */,
+				27B19A262C2E4189008A8C4A /* Utils */,
+				27B19A282C2E418F008A8C4A /* Resources */,
+				27B19A2A2C2E4195008A8C4A /* Preview Content */,
+				27B19A2E2C2E41A0008A8C4A /* Info.plist */,
+				27B19A302C2E41A6008A8C4A /* GalleryApp.entitlements */,
+			);
+			path = GalleryApp;
+			sourceTree = "<group>";
+		};
+		27B19A1C2C2E416A008A8C4A /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				27B19A1D2C2E416A008A8C4A /* Placeholder.swift */,
+				NEW_FILE_REF_CONSTS_SWIFT /* Consts.swift */,
+				NEW_FILE_REF_DATASTORE_SWIFT /* DataStoreRepository.swift */,
+				NEW_FILE_REF_DOWNLOADREPO_SWIFT /* DownloadRepository.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		27B19A1E2C2E4171008A8C4A /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				27B19A1F2C2E4171008A8C4A /* Placeholder.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		27B19A202C2E4177008A8C4A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				27B19A212C2E4177008A8C4A /* Placeholder.swift */,
+				REF_CHATVIEWMODELBASE_S /* ChatViewModelBase.swift */,
+				REF_IMGCLASSVM_S /* ImageClassificationViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		27B19A222C2E417D008A8C4A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				27B19A232C2E417D008A8C4A /* Placeholder.swift */,
+				NEW_FILE_REF_MODEL_SWIFT /* Model.swift */,
+				NEW_FILE_REF_CONFIG_SWIFT /* Config.swift */,
+				NEW_FILE_REF_CONFIGVALUE_SWIFT /* ConfigValue.swift */,
+				NEW_FILE_REF_TASK_SWIFT /* Task.swift */,
+				NEW_FILE_REF_APPBARACTION_SWIFT /* AppBarAction.swift */,
+				NEW_FILE_REF_MODELALLOWLIST_SWIFT /* ModelAllowlist.swift */,
+				GRP_CHAT_MODELS_FINAL /* Chat */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		27B19A242C2E4183008A8C4A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				27B19A252C2E4183008A8C4A /* Placeholder.swift */,
+				REF_IMGCLASSMH_S /* ImageClassificationModelHelper.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		27B19A262C2E4189008A8C4A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				27B19A272C2E4189008A8C4A /* Placeholder.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		27B19A282C2E418F008A8C4A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				27B19A292C2E418F008A8C4A /* Placeholder.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		27B19A2A2C2E4195008A8C4A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				27B19A2B2C2E4195008A8C4A /* Placeholder.swift */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27B19A182C2E413D008A8C4A /* GalleryApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27B19A332C2E41B2008A8C4A /* Build configuration list for PBXNativeTarget "GalleryApp" */;
+			buildPhases = (
+				27B19A172C2E413D008A8C4A /* Sources */,
+				FRAMEWORKS_BUILD_PHASE_ID /* Frameworks */,
+			);
+			buildRules = [
+			];
+			dependencies = [
+			];
+			name = GalleryApp;
+			packageProductDependencies = (
+				SWIFT_PACKAGE_PRODUCT_MEDIAPIPE_GENAI /* MediaPipeTasksGenAI */,
+				SWIFT_PACKAGE_PRODUCT_MEDIAPIPE_TEXT /* MediaPipeTasksText */,
+				SWIFT_PACKAGE_PRODUCT_MEDIAPIPE_VISION /* MediaPipeTasksVision */,
+				SWIFT_PACKAGE_PRODUCT_TENSORFLOWLITE /* TensorFlowLiteSwift */,
+			);
+			productName = GalleryApp;
+			productReference = 27B19A152C2E413D008A8C4A /* GalleryApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		PACKAGE_REF_MEDIAPIPE /* MediaPipe */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/mediapipe-solutions.git";
+			requirement = {
+				kind = upToNextMajorVersion; // More flexible than exact
+				minimumVersion = "0.10.11";
+			};
+		};
+		PACKAGE_REF_TENSORFLOWLITE /* TensorFlowLite */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tensorflow/tensorflow-lite-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion; // More flexible than exact
+				minimumVersion = "2.15.0";
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin PBXProject section */
+		27B19A132C2E413D008A8C4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1300; // Or a more recent Xcode version like 1500
+				TargetAttributes = {
+					27B19A182C2E413D008A8C4A = {
+						CreatedOnToolsVersion = 13.0; // Or a more recent Xcode version like 15.0
+					};
+				};
+			};
+			buildConfigurationList = 27B19A312C2E41B2008A8C4A /* Build configuration list for PBXProject "GalleryApp" */;
+			compatibilityVersion = "Xcode 14.0"; // Adjusted for Swift Packages
+			packageReferences = (
+				PACKAGE_REF_MEDIAPIPE /* MediaPipe */,
+				PACKAGE_REF_TENSORFLOWLITE /* TensorFlowLite */,
+			);
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 27B19A142C2E413D008A8C4A;
+			productRefGroup = 27B19A162C2E413D008A8C4A /* Products */; // Keep this if Products group is still used for app
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27B19A182C2E413D008A8C4A /* GalleryApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FRAMEWORKS_BUILD_PHASE_ID /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				/* Swift Package products are typically not listed here directly by their file refs */
+				/* Xcode links them via the target's packageProductDependencies */
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27B19A172C2E413D008A8C4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27B19A1E2C2E416A008A8C4A /* Placeholder.swift in Sources */, // Data group placeholder
+				NEW_BUILD_FILE_CONSTS_SWIFT /* Consts.swift in Sources */,
+				NEW_BUILD_FILE_DATASTORE_SWIFT /* DataStoreRepository.swift in Sources */,
+				NEW_BUILD_FILE_DOWNLOADREPO_SWIFT /* DownloadRepository.swift in Sources */,
+				BLD_IMGCLASSMH_S /* ImageClassificationModelHelper.swift in Sources */,
+				27B19A202C2E4171008A8C4A /* Placeholder.swift in Sources */, // UI group placeholder
+				27B19A222C2E4177008A8C4A /* Placeholder.swift in Sources */, // ViewModels group placeholder
+				BLD_CHATVIEWMODELBASE_S /* ChatViewModelBase.swift in Sources */,
+				BLD_IMGCLASSVM_S /* ImageClassificationViewModel.swift in Sources */,
+				27B19A242C2E417D008A8C4A /* Placeholder.swift in Sources */, // Models group placeholder
+				NEW_BUILD_FILE_MODEL_SWIFT /* Model.swift in Sources */,
+				NEW_BUILD_FILE_CONFIG_SWIFT /* Config.swift in Sources */,
+				NEW_BUILD_FILE_CONFIGVALUE_SWIFT /* ConfigValue.swift in Sources */,
+				NEW_BUILD_FILE_TASK_SWIFT /* Task.swift in Sources */,
+				NEW_BUILD_FILE_APPBARACTION_SWIFT /* AppBarAction.swift in Sources */,
+				NEW_BUILD_FILE_MODELALLOWLIST_SWIFT /* ModelAllowlist.swift in Sources */,
+				BUILDFILE_CHATTYPES_S /* ChatMessageTypes.swift in Sources */,
+				BUILDFILE_CHATSUPPORT_S /* ChatSupportingTypes.swift in Sources */,
+				BUILDFILE_CHATMESSAGE_S /* ChatMessage.swift in Sources */,
+				27B19A262C2E4183008A8C4A /* Placeholder.swift in Sources */, // Services group placeholder
+				27B19A282C2E4189008A8C4A /* Placeholder.swift in Sources */, // Utils group placeholder
+				27B19A2A2C2E418F008A8C4A /* Placeholder.swift in Sources */, // Resources group placeholder
+				27B19A2C2C2E4195008A8C4A /* Placeholder.swift in Sources */, // Preview Content group placeholder
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXBuildFile section additions for new files */
+		NEW_BUILD_FILE_MODEL_SWIFT /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = NEW_FILE_REF_MODEL_SWIFT /* Model.swift */; };
+		NEW_BUILD_FILE_CONFIG_SWIFT /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = NEW_FILE_REF_CONFIG_SWIFT /* Config.swift */; };
+		NEW_BUILD_FILE_CONFIGVALUE_SWIFT /* ConfigValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = NEW_FILE_REF_CONFIGVALUE_SWIFT /* ConfigValue.swift */; };
+		NEW_BUILD_FILE_TASK_SWIFT /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = NEW_FILE_REF_TASK_SWIFT /* Task.swift */; };
+		NEW_BUILD_FILE_APPBARACTION_SWIFT /* AppBarAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = NEW_FILE_REF_APPBARACTION_SWIFT /* AppBarAction.swift */; };
+		NEW_BUILD_FILE_MODELALLOWLIST_SWIFT /* ModelAllowlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = NEW_FILE_REF_MODELALLOWLIST_SWIFT /* ModelAllowlist.swift */; };
+		NEW_BUILD_FILE_CONSTS_SWIFT /* Consts.swift in Sources */ = {isa = PBXBuildFile; fileRef = NEW_FILE_REF_CONSTS_SWIFT /* Consts.swift */; };
+		NEW_BUILD_FILE_DATASTORE_SWIFT /* DataStoreRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = NEW_FILE_REF_DATASTORE_SWIFT /* DataStoreRepository.swift */; };
+		NEW_BUILD_FILE_DOWNLOADREPO_SWIFT /* DownloadRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = NEW_FILE_REF_DOWNLOADREPO_SWIFT /* DownloadRepository.swift */; };
+		BUILDFILE_CHATTYPES_S /* ChatMessageTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = REF_CHAT_TYPES_FINAL /* ChatMessageTypes.swift */; };
+		BUILDFILE_CHATSUPPORT_S /* ChatSupportingTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = REF_CHAT_SUPPORT_FINAL /* ChatSupportingTypes.swift */; };
+		BUILDFILE_CHATMESSAGE_S /* ChatMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = REF_CHAT_MESSAGE_FINAL /* ChatMessage.swift */; };
+		BLD_CHATVIEWMODELBASE_S /* ChatViewModelBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = REF_CHATVIEWMODELBASE_S /* ChatViewModelBase.swift */; };
+		BLD_IMGCLASSMH_S /* ImageClassificationModelHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = REF_IMGCLASSMH_S /* ImageClassificationModelHelper.swift */; };
+		BLD_IMGCLASSVM_S /* ImageClassificationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = REF_IMGCLASSVM_S /* ImageClassificationViewModel.swift */; };
+/* End PBXBuildFile section additions for new files */
+
+/* Begin XCSwiftPackageProductDependency section */
+		SWIFT_PACKAGE_PRODUCT_MEDIAPIPE_GENAI /* MediaPipeTasksGenAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = PACKAGE_REF_MEDIAPIPE /* MediaPipe */;
+			productName = "MediaPipeTasksGenAI";
+		};
+		SWIFT_PACKAGE_PRODUCT_MEDIAPIPE_TEXT /* MediaPipeTasksText */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = PACKAGE_REF_MEDIAPIPE /* MediaPipe */;
+			productName = "MediaPipeTasksText";
+		};
+		SWIFT_PACKAGE_PRODUCT_MEDIAPIPE_VISION /* MediaPipeTasksVision */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = PACKAGE_REF_MEDIAPIPE /* MediaPipe */;
+			productName = "MediaPipeTasksVision";
+		};
+		SWIFT_PACKAGE_PRODUCT_TENSORFLOWLITE /* TensorFlowLiteSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = PACKAGE_REF_TENSORFLOWLITE /* TensorFlowLite */;
+			productName = "TensorFlowLiteSwift";
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCBuildConfiguration section */
+		27B19A322C2E41B2008A8C4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GalleryApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.GalleryApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		27B19A342C2E41B2008A8C4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_NS_ASSERTIONS = YES;
+				ENABLE_PREVIEWS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GalleryApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.GalleryApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27B19A312C2E41B2008A8C4A /* Build configuration list for PBXProject "GalleryApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27B19A322C2E41B2008A8C4A /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		27B19A332C2E41B2008A8C4A /* Build configuration list for PBXNativeTarget "GalleryApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27B19A342C2E41B2008A8C4A /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27B19A132C2E413D008A8C4A /* Project object */;
+}
